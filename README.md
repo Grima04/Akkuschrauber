@@ -15,9 +15,16 @@ Lucas Nülle MCLS-Modular 8051 development board, including:
 * a 4 digit display (seven segment display)
 * 8 buttons, of which 4 were used
 * connection cables
+
 Other hardware used:
 * a DC-power generator
 * a probe to test HIGH/LOW signals
+* Windows 10 PC running Windows XP in a VM with the MCLS-Modular IDE
+* Serial port cable to connect the board to the PC
+
+### Port pin assignment
+
+### Flow chart (in German)
 
 ### The project in action
 ![](https://github.com/Grima04/Akkuschrauber/blob/main/Akkuschrauber_in_Aktion.gif)
