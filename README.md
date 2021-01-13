@@ -26,6 +26,7 @@ Other hardware used:
 ![](https://github.com/Grima04/Akkuschrauber/blob/main/Port-pin-assignment.png)
 
 ### Flow chart (in German)
+![](https://github.com/Grima04/Akkuschrauber/blob/main/Mikroprozessor_Flussdiagramm_PNG.png)
 
 ### The project in action
 ![](https://github.com/Grima04/Akkuschrauber/blob/main/Akkuschrauber_in_Aktion.gif)
