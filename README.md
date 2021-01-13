@@ -20,5 +20,6 @@ Other hardware used:
 * a probe to test HIGH/LOW signals
 
 ### The project in action
+![](https://github.com/Grima04/Akkuschrauber/Akkuschrauber_in_Aktion.gif)
 
 ### Gallery
