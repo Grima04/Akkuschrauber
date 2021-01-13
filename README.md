@@ -23,6 +23,7 @@ Other hardware used:
 * Serial port cable to connect the board to the PC
 
 ### Port pin assignment
+![](https://github.com/Grima04/Akkuschrauber/blob/main/Port-pin-assignment.png)
 
 ### Flow chart (in German)
 
@@ -30,3 +31,9 @@ Other hardware used:
 ![](https://github.com/Grima04/Akkuschrauber/blob/main/Akkuschrauber_in_Aktion.gif)
 
 ### Gallery
+Full setup in the lab:
+![](https://github.com/Grima04/Akkuschrauber/blob/main/full-setup.jpg)
+MCLS-Modular board setup closeup:
+![](https://github.com/Grima04/Akkuschrauber/blob/main/board-closeup.jpg)
+Stepper motor closeup:
+![](https://github.com/Grima04/Akkuschrauber/blob/main/motor-closeup.jpg)
