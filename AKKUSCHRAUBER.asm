@@ -155,11 +155,11 @@ AUSGABE_7SEGM_2:
         CLR A					;Akku A löschen
         CALL DPTR_ROUTINE			;Rufe Zeiger auf um Tabelle anzusteuern
         CLR P4.1
-        SETB P4.1				;Aktualisiere Segmentblock 2
+        SETB P4.1				;Aktualisiere Segmentblock 1
 CLR A						;Akku A löschen
         CALL DPTR_ROUTINE			;Rufe Zeiger auf um Tabelle anzusteuern
         CLR P4.0
-        SETB P4.0				;Aktualisiere Segmentblock 2
+        SETB P4.0				;Aktualisiere Segmentblock 0
         RET					;Verlasse Unterprogramm
    
 DPTR_ROUTINE:    
@@ -179,7 +179,7 @@ TR40:
 	DB 10000111B 				;Ziffer t
  	DB 10101111B 				;Ziffer r
 TR60:    
-	DB 10000010B 				;Ziffer 4
+	DB 10000010B 				;Ziffer 6
         DB 11000000B 				;Ziffer 0
 	DB 10000111B 				;Ziffer t
  	DB 10101111B 				;Ziffer r
