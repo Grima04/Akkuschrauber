@@ -70,7 +70,7 @@ STEP2:
 	JMP ENT					;Springe zur Entprellung
 STEP3:
 	MOV R7,#2				;Setze Flag für Vorwärtsdrehung 3
-CALL AUSGABE_7SEGM				;Rufe Anzeige-Unterprogramm auf
+	CALL AUSGABE_7SEGM			;Rufe Anzeige-Unterprogramm auf
 	MOV R0,#0D7H  				;Speichere High-byte für Zähler
 	MOV R1,#050H 	      			;Speichere Low-byte für Zähler
 	MOV TH0,R0 				;High-byte des Zählers setzen
@@ -92,7 +92,7 @@ REV:
 	JMP ENT					;Springe zur Entprellung
 
 STOP: 
-MOV R7,#4					;Setze Flag für Stop
+	MOV R7,#4				;Setze Flag für Stop
 	CALL AUSGABE_7SEGM			;Rufe Anzeige-Unterprogramm auf	
 	CLR TR0					;Stoppe Zähler 0
 	JMP CHECK_BTN				;Springe auf Taster überprüfen
@@ -156,7 +156,7 @@ AUSGABE_7SEGM_2:
         CALL DPTR_ROUTINE			;Rufe Zeiger auf um Tabelle anzusteuern
         CLR P4.1
         SETB P4.1				;Aktualisiere Segmentblock 1
-CLR A						;Akku A löschen
+	CLR A					;Akku A löschen
         CALL DPTR_ROUTINE			;Rufe Zeiger auf um Tabelle anzusteuern
         CLR P4.0
         SETB P4.0				;Aktualisiere Segmentblock 0
